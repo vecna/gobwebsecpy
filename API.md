@@ -1,3 +1,23 @@
+# API to use
+
+  * paraguay
+    * https://invi.sible.link/api/v1/surface/gov.paraguay
+    * https://invi.sible.link/api/v1/details/gov.paraguay
+    * https://invi.sible.link/api/v1/extended/gov.paraguay
+  * brasil
+    * https://invi.sible.link/api/v1/surface/gov.brasil
+    * https://invi.sible.link/api/v1/details/gov.brasil
+    * https://invi.sible.link/api/v1/extended/gov.brasil
+  * chile
+    * https://invi.sible.link/api/v1/surface/gov.chile
+    * https://invi.sible.link/api/v1/details/gov.chile
+    * https://invi.sible.link/api/v1/extended/gov.chile
+  * colombia
+    * https://invi.sible.link/api/v1/surface/gov.colombia
+    * https://invi.sible.link/api/v1/details/gov.colombia
+    * https://invi.sible.link/api/v1/extended/gov.colombia
+
+
 Every list of website has a name, I call if "campaign name", in this example, is gov.paraguay, but normally is better if is the name of the country analyzed. 
 
 JSON Pretty Print: http://jsonprettyprint.com/
