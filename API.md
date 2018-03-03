@@ -1,28 +1,28 @@
 # API to use
 
   * paraguay
-    * https://invi.sible.link/api/v1/surface/gov.paraguay
-    * https://invi.sible.link/api/v1/details/gov.paraguay
-    * https://invi.sible.link/api/v1/extended/gov.paraguay
+    * https://invi.sible.link/api/v1/surface/gob.paraguay
+    * https://invi.sible.link/api/v1/details/gob.paraguay
+    * https://invi.sible.link/api/v1/extended/gob.paraguay
   * brasil
-    * https://invi.sible.link/api/v1/surface/gov.brasil
-    * https://invi.sible.link/api/v1/details/gov.brasil
-    * https://invi.sible.link/api/v1/extended/gov.brasil
+    * https://invi.sible.link/api/v1/surface/gob.brasil
+    * https://invi.sible.link/api/v1/details/gob.brasil
+    * https://invi.sible.link/api/v1/extended/gob.brasil
   * chile
-    * https://invi.sible.link/api/v1/surface/gov.chile
-    * https://invi.sible.link/api/v1/details/gov.chile
-    * https://invi.sible.link/api/v1/extended/gov.chile
+    * https://invi.sible.link/api/v1/surface/gob.chile
+    * https://invi.sible.link/api/v1/details/gob.chile
+    * https://invi.sible.link/api/v1/extended/gob.chile
   * colombia
-    * https://invi.sible.link/api/v1/surface/gov.colombia
-    * https://invi.sible.link/api/v1/details/gov.colombia
-    * https://invi.sible.link/api/v1/extended/gov.colombia
+    * https://invi.sible.link/api/v1/surface/gob.colombia
+    * https://invi.sible.link/api/v1/details/gob.colombia
+    * https://invi.sible.link/api/v1/extended/gob.colombia
 
 
 Every list of website has a name, I call if "campaign name", in this example, is gov.paraguay, but normally is better if is the name of the country analyzed. 
 
 JSON Pretty Print: http://jsonprettyprint.com/
 
-## API "surface" https://invi.sible.link/api/v1/surface/gov.paraguay
+## API "surface" https://invi.sible.link/api/v1/surface/gob.paraguay
 
 It return: ONE object per every SITE TESTED (if converted in CSV, is one line per site tested)
         
@@ -42,7 +42,7 @@ It return: ONE object per every SITE TESTED (if converted in CSV, is one line pe
 			p: the percentage: among all the website tested in gov.paraguay, 83% have google.
 
 
-## API "details" https://invi.sible.link/api/v1/details/gov.paraguay
+## API "details" https://invi.sible.link/api/v1/details/gob.paraguay
 
 ONE object per every THIS PARTY INCLUSION, this mean, you should find for every website many entry as much as are the third parties included.
 This API contains technical details on the javascript behavior. namely, the script who can profile the browser without using cookies, like the one used in https://panopticlick.eff.org/
@@ -69,7 +69,7 @@ This API contains technical details on the javascript behavior. namely, the scri
     campaign "gov.paraguay"
 
 
-## API "extended" https://invi.sible.link/api/v1/extended/gov.paraguay
+## API "extended" https://invi.sible.link/api/v1/extended/gob.paraguay
 
 ONE object per every THIS PARTY INCLUSION, this mean, you should find for every website many entry as much as are the third parties included.
 
