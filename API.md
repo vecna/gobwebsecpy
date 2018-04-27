@@ -4,18 +4,22 @@
     * https://invi.sible.link/api/v1/surface/gob.paraguay
     * https://invi.sible.link/api/v1/details/gob.paraguay
     * https://invi.sible.link/api/v1/extended/gob.paraguay
+    * https://invi.sible.link/api/v1/evidences/gob.paraguay/0
   * brasil
     * https://invi.sible.link/api/v1/surface/gob.brasil
     * https://invi.sible.link/api/v1/details/gob.brasil
     * https://invi.sible.link/api/v1/extended/gob.brasil
+    * https://invi.sible.link/api/v1/evidences/gob.brasil/0
   * chile
     * https://invi.sible.link/api/v1/surface/gob.chile
     * https://invi.sible.link/api/v1/details/gob.chile
     * https://invi.sible.link/api/v1/extended/gob.chile
+    * https://invi.sible.link/api/v1/evidences/gob.chile/0
   * colombia
     * https://invi.sible.link/api/v1/surface/gob.colombia
     * https://invi.sible.link/api/v1/details/gob.colombia
     * https://invi.sible.link/api/v1/extended/gob.colombia
+    * https://invi.sible.link/api/v1/evidences/gob.colombia/0
 
 
 Every list of website has a name, I call if "campaign name", in this example, is gov.paraguay, but normally is better if is the name of the country analyzed. 
@@ -67,6 +71,8 @@ This API contains technical details on the javascript behavior. namely, the scri
 		this identify the tested website, do not change with time, will be the same also in the next days
     when "2018-03-01T00:00:00.000Z" 
     campaign "gov.paraguay"
+
+**update**: in version `2` of the API, you'll find less hashes and all the function execution count are considered string instead of number
 
 
 ## API "extended" https://invi.sible.link/api/v1/extended/gob.paraguay
