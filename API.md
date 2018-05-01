@@ -1,4 +1,4 @@
-# API to use
+# API reference
 
   * paraguay
     * https://invi.sible.link/api/v1/surface/gob.paraguay
@@ -30,7 +30,6 @@ JSON Pretty Print: http://jsonprettyprint.com/
 
 It return: ONE object per every SITE TESTED (if converted in CSV, is one line per site tested)
         
-
     url: "http://www.presidencia.gov.py/
     	name of the website tested
     unrecognized: []
